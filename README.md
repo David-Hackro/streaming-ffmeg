@@ -7,7 +7,7 @@ Work fine in Ubuntu **15.04** - **15.10** and **16.04**
 
 Question in [AskUbuntu](http://askubuntu.com/questions/784981/alternatives-obs-open-broadcaster-software/786110#786110)
 
-***1** Install ***ffmpeg****
+***1*** Install ***ffmpeg****
     
     sudo apt-get update
   
@@ -17,11 +17,11 @@ Question in [AskUbuntu](http://askubuntu.com/questions/784981/alternatives-obs-o
   
   
   
-***2** Create file.sh*
+***2*** Create file.sh*
   
     script.sh
   
- ***3** Paste code*
+ ***3*** Paste code*
 
     INRES="1366x768" # input resolution
          OUTRES="1366x768" # output resolution
@@ -44,12 +44,12 @@ Question in [AskUbuntu](http://askubuntu.com/questions/784981/alternatives-obs-o
 
   
   
-***4** assing Permissions*
+***4*** assing Permissions*
 
     sudo chmod +x script.sh
 
 
 
-***5** Execute Script*
+***5*** Execute Script*
 
     sudo sh script
