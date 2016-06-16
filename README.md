@@ -44,7 +44,7 @@ Question in [AskUbuntu](http://askubuntu.com/questions/784981/alternatives-obs-o
 
   
   
-***4*** assing Permissions*
+***4*** Assign Permissions*
 
     sudo chmod +x script.sh
 
