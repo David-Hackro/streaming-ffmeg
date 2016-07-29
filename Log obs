@@ -1,0 +1,206 @@
+obs
+Attempted path: share/obs/obs-studio/locale/en-US.ini
+Attempted path: /usr/share/obs/obs-studio/locale/en-US.ini
+Attempted path: share/obs/obs-studio/locale.ini
+Attempted path: /usr/share/obs/obs-studio/locale.ini
+Attempted path: share/obs/obs-studio/locale/es-ES.ini
+Attempted path: /usr/share/obs/obs-studio/locale/es-ES.ini
+info: Using preferred locale 'es-ES'
+Attempted path: share/obs/obs-studio/themes/Dark.qss
+Attempted path: /usr/share/obs/obs-studio/themes/Dark.qss
+Attempted path: share/obs/obs-studio/license/gplv2.txt
+Attempted path: /usr/share/obs/obs-studio/license/gplv2.txt
+info: Processor: 4 logical cores
+info: Processor: Intel(R) Core(TM) i7-3517U CPU @ 1.90GHz
+info: Physical Memory: 7850MB Total
+info: Kernel Version: Linux 4.4.0-31-generic
+info: Distribution: "Ubuntu" "16.04"
+QObject::connect: invalid null parameter
+info: OBS 0.15.2-22-g7e8ad0a (linux)
+info: ---------------------------------
+info: ---------------------------------
+info: audio settings reset:
+	samples per sec: 44100
+	speakers:        2
+info: OpenGL version: 3.3 (Core Profile) Mesa 11.2.0
+
+info: ---------------------------------
+info: video settings reset:
+	base resolution:   1366x768
+	output resolution: 1364x768
+	fps:               30/1
+	format:            NV12
+info: ---------------------------------
+info: Loading module: image-source.so
+info: ---------------------------------
+info: Loading module: linux-capture.so
+info: ---------------------------------
+info: Loading module: linux-decklink.so
+libDeckLinkAPI.so: no se puede abrir el archivo del objeto compartido: No existe el archivo o el directorio
+info: No blackmagic support
+info: Failed to start search for DeckLink devices
+info: ---------------------------------
+info: Loading module: linux-jack.so
+info: ---------------------------------
+info: Loading module: linux-pulseaudio.so
+info: ---------------------------------
+info: Loading module: linux-v4l2.so
+info: ---------------------------------
+info: Loading module: obs-ffmpeg.so
+info: ---------------------------------
+info: Loading module: obs-filters.so
+info: ---------------------------------
+info: Loading module: obs-libfdk.so
+info: ---------------------------------
+info: Loading module: obs-outputs.so
+info: ---------------------------------
+info: Loading module: obs-transitions.so
+info: ---------------------------------
+info: Loading module: obs-x264.so
+info: ---------------------------------
+info: Loading module: rtmp-services.so
+info: ---------------------------------
+info: Loading module: text-freetype2.so
+info: =====================================================================
+info: output 'simple_stream' (rtmp_output) created
+info: encoder 'simple_h264_stream' (obs_x264) created
+info: AAC encoder bitrate mapping:
+	 32 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	 64 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	 96 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	128 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	160 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	192 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	224 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	256 kbit/s: 'Codificador AAC libfdk' (libfdk_aac)
+	288 kbit/s: 'Codificador AAC FFmpeg predeterminado' (ffmpeg_aac)
+	320 kbit/s: 'Codificador AAC FFmpeg predeterminado' (ffmpeg_aac)
+info: encoder 'simple_aac' (libfdk_aac) created
+info: output 'simple_file_output' (ffmpeg_muxer) created
+info: service 'default_service' (rtmp_common) created
+info: All scene data cleared
+info: ------------------------------------------------
+info: source 'Escena' (scene) created
+info: xshm-input: Geometry 1366x768 @ 0,0
+info: source 'Captura de pantalla (XSHM)' (xshm_input) created
+info: == Profiler Results =============================
+info: run_program_init: 284.504 ms
+info:  ┣OBSApp::AppInit: 3.511 ms
+info:  ┃ ┗OBSApp::InitLocale: 1.457 ms
+info:  ┗OBSApp::OBSInit: 195.494 ms
+info:    ┣obs_startup: 0.917 ms
+info:    ┗OBSBasic::OBSInit: 147.574 ms
+info:      ┣OBSBasic::InitBasicConfig: 0.252 ms
+info:      ┣OBSBasic::ResetAudio: 0.083 ms
+info:      ┣OBSBasic::ResetVideo: 103.914 ms
+info:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+info:      ┣OBSBasic::InitHotkeys: 0.039 ms
+info:      ┣obs_load_all_modules: 14.19 ms
+info:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+info:      ┃ ┣obs_init_module(linux-capture.so): 0.469 ms
+info:      ┃ ┣obs_init_module(linux-decklink.so): 0.144 ms
+info:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+info:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+info:      ┃ ┣obs_init_module(linux-v4l2.so): 0.006 ms
+info:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.077 ms
+info:      ┃ ┣obs_init_module(obs-filters.so): 0.007 ms
+info:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+info:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+info:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+info:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+info:      ┃ ┣obs_init_module(rtmp-services.so): 0.089 ms
+info:      ┃ ┗obs_init_module(text-freetype2.so): 0.028 ms
+info:      ┣OBSBasic::ResetOutputs: 0.296 ms
+info:      ┣OBSBasic::CreateHotkeys: 0.023 ms
+info:      ┣OBSBasic::InitService: 0.05 ms
+info:      ┣OBSBasic::InitPrimitives: 0.09 ms
+info:      ┗OBSBasic::Load: 4.226 ms
+info: =================================================
+info: Update check: last known remote version is 0.4.0
+Attempted path: share/obs/obs-studio/locale.ini
+Attempted path: /usr/share/obs/obs-studio/locale.ini
+Attempted path: share/obs/obs-studio/themes/
+Attempted path: /usr/share/obs/obs-studio/themes/
+info: encoder 'simple_h264_stream' destroyed
+info: encoder 'simple_aac' destroyed
+info: output 'simple_stream' destroyed
+info: output 'simple_file_output' destroyed
+info: output 'simple_stream' (rtmp_output) created
+info: encoder 'simple_h264_stream' (obs_x264) created
+info: encoder 'simple_aac' (libfdk_aac) created
+info: output 'simple_file_output' (ffmpeg_muxer) created
+info: pulse-input: Server name: 'pulseaudio 8.0'
+info: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+info: source 'Audio del escritorio' (pulse_output_capture) created
+info: pulse-input: Server name: 'pulseaudio 8.0'
+info: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+info: source 'Audio del escritorio 2' (pulse_output_capture) created
+info: pulse-input: Server name: 'pulseaudio 8.0'
+info: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+info: source 'Mic/Aux' (pulse_input_capture) created
+info: Settings changed (outputs, audio)
+info: ------------------------------------------------
+info: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+info: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+info: v4l2-input: Start capture from 
+error: v4l2-input: Unable to open device
+error: v4l2-input: Initialization failed
+info: source 'Dispositivo de captura de video (V4L2)' (v4l2_input) created
+info: v4l2-input: Found device 'Laptop_Integrated_Webcam_HD' at /dev/video0
+info: v4l2-input: Found device 'USB2.0 Camera' at /dev/video1
+info: v4l2-input: Found input 'Camera 1' (Index 0)
+info: v4l2-input: Start capture from /dev/video0
+info: v4l2-input: Input: 0
+info: v4l2-input: Resolution: 640x480
+info: v4l2-input: Pixelformat: VYUY
+info: v4l2-input: Linesize: 1280 Bytes
+info: v4l2-input: Framerate: 30.00 fps
+info: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+info: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+info: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+info: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+info: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+info: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+info: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+info: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+info: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+info: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+info: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+info: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+info: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+info: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+info: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+info: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+info: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+info: v4l2-input: Stopped capture after 1 frames
+info: v4l2-input: Start capture from /dev/video0
+info: v4l2-input: Input: 0
+info: v4l2-input: Resolution: 640x480
+info: v4l2-input: Pixelformat: VYUY
+info: v4l2-input: Linesize: 1280 Bytes
+info: v4l2-input: Framerate: 30.00 fps
+info: source 'Texto (FreeType 2)' (text_ft2_source) created
+info: ---------------------------------
+info: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+info: [x264 encoder: 'simple_h264_stream'] settings:
+	rate_control: CBR
+	bitrate:      1300
+	buffer size:  1300
+	crf:          0
+	fps_num:      30
+	fps_den:      1
+	width:        1364
+	height:       768
+	keyint:       250
+	vfr:          off
+
+info: libfdk_aac encoder created
+info: libfdk_aac bitrate: 160, channels: 2
+info: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://usmedia3.livecoding.tv/livecodingtv...
+info: [rtmp stream: 'simple_stream'] Connection to rtmp://usmedia3.livecoding.tv/livecodingtv successful
+info: ==== Streaming Start ===============================================
+
+ 
